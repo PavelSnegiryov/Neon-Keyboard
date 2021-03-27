@@ -1,0 +1,121 @@
+body {
+    background: black;
+}
+section {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Faster One', cursive;
+    color: turquoise;
+}
+
+.input {
+    margin: 20px;
+    width: 500px;
+    height: 40px;
+    margin-left: 500px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.keyboard {
+    border: 2px solid turquoise;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    width: fit-content;
+}
+
+.key {
+    border: 2px solid turquoise;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: turquoise;
+    margin: 2px;
+    display: inline-block;
+    line-height: 32px;
+}
+
+/* /////////////// lINE 1 \\\\\\\\\\\\\\\\ */
+.top {
+margin-bottom: 10px;
+}
+.F1 {
+    margin-left: 30px;
+}
+.F5 {
+    margin-left: 20px;
+}
+.F9 {
+    margin-left: 20px;
+}
+.Delete {
+    margin-left: 40px;
+}
+
+/* /////////////// lINE 2 \\\\\\\\\\\\\\\\ */
+
+.Backspace {
+    width: 122px;
+    margin-left: 20px;
+}
+
+/* /////////////// lINE 3 \\\\\\\\\\\\\\\\ */
+
+.Tab {
+    width: 66px;
+}
+
+.Backslash {
+    width: 96px;
+    margin-left: 20px;
+}
+
+/* /////////////// lINE 4 \\\\\\\\\\\\\\\\ */
+
+.CapsLock {
+    width: 75px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.Enter {
+    width: 115px;
+    text-align: end;
+    padding-right: 15px;
+    margin-left: 20px;
+}
+
+/* /////////////// lINE 5 \\\\\\\\\\\\\\\\ */
+
+.ShiftLeft {
+    width: 94px;
+    text-align: left;
+    padding-left: 10px;
+}
+.ShiftRight {
+    width: 60px;
+}
+.ArrowUp {
+    margin-left: 20px;
+}
+
+/* /////////////// lINE 6 \\\\\\\\\\\\\\\\ */
+
+.Meta {
+    width: 50px;
+}
+
+.Space {
+    width: 338px;
+}
+.ArrowLeft {
+    margin-left: 56px;
+}
+/* ///////////////       \\\\\\\\\\\\\\\\ */
+
+.active {
+    background: rgb(255, 0, 242);
+}
